@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="consumer.api" target="11" />
+      <module name="producer" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kafka_assignment" options="--add-exports jdk.internal.vm.compiler/org.graalvm.compiler.options=ALL-UNNAMED" />
+    </option>
+  </component>
+</project>
